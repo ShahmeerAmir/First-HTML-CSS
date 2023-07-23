@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+  
+
+.container{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card{
+    display: flex;
+    height: 400px;
+    width: 700px;
+    border: 2px solid green;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    height: 100% ;
+    width: 50%;
+    border: 2px solid pink;
+}
+
+.Track{
+    display: flex;
+    flex-direction: column;
+    height: 100% ;
+    width: 50%;
+    border: 2px solid blue;
+    border-radius: 30px;
+    background-image: linear-gradient(#6843FF,#312CEA);
+    justify-content: space-between;
+    align-items: center ;
+}
+.circle{
+    min-height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 2px powderblue; 
+
+}
+.text  {
+    text-align: center;
+}
